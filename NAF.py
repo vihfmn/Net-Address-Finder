@@ -111,6 +111,7 @@ nm = ""
 
 if len(free) != 0:
     for i in free:
+        nm = ""
         mm = mask_mas[i]
         im = ip_mas[i]
         for k in range(0, 8):
